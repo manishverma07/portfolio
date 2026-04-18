@@ -1,6 +1,6 @@
 import React from 'react'
 import myImage from '../Assets/Images/IMG-20230315-WA00272-removebg-preview.jpg'
-import myCV from '../Assets/Manish Verma cv.pdf'
+import myCV from '../Assets/Manish-Verma-cv.pdf'
 
 
 const About = () => {
