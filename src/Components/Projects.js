@@ -15,13 +15,13 @@ const Projects = () => {
           <p>Built an E-commerce frontend using React with emphasis on UI design, component structure, and visually appealing product listings. </p>
         </div>
 
-        <img src={commerceImage} className='project-img' alt='No image'></img>
+        <img src={commerceImage} className='project-img' alt='E-commerce website UI preview'></img>
       </div>
 
 
       <div className='project-container'>
 
-        <img src={commerceImage2} alt='No Image' className='project-img'></img>
+        <img src={commerceImage2} alt='To-do list app interface' className='project-img'></img>
 
         <div className='project-content'>
           <h3> To-do List</h3>
