@@ -1,6 +1,6 @@
 import React from 'react'
 import myImage from '../Assets/Images/IMG-20230315-WA00272-removebg-preview.jpg'
-import myCV from '../Assets/Manish-Verma-cv.pdf'
+import myCV from '../Assets/Manish Verma Dev cv.pdf'
 
 
 const About = () => {
@@ -11,9 +11,9 @@ const About = () => {
 
             <div className='about-content' >
                 <h3>Bit About Me</h3>
-                <p>        
-                        I'm a passionate frontend and UI developer who enjoys building clean, responsive, and user-friendly websites. I started learning web development out of curiosity for coding and design, and it has now become my career path. I'm focused on improving my skills and creating better web experiences every day.
-        
+                <p>
+                    I'm a passionate frontend developer who enjoys building clean, responsive, and user-friendly websites. I started learning web development out of curiosity for coding and design, and it has now become my career path. I'm focused on improving my skills and creating better web experiences every day.
+
                 </p>
 
                 <a href={myCV} download>
