@@ -324,14 +324,26 @@ section {
     margin-top: -8px;
 }
 
+.react {
+    width: 40%;
+    background-color: #8AB4F8;
+    margin-top: -8px;
+}
+
 .boot {
     width: 50%;
     background-color: #8AB4F8;
     margin-top: -8px;
 }
 
-.react {
-    width: 40%;
+.git {
+    width: 50%;
+    background-color: #8AB4F8;
+    margin-top: -8px;
+}
+
+.figma {
+    width: 70%;
     background-color: #8AB4F8;
     margin-top: -8px;
 }

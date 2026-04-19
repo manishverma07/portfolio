@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <h1 className="myName">Manish Verma </h1>
                 <h2 id="hero-career">Frontend Developer</h2>
                 <p>
-                    Frontend Developer focused on building clean and responsive web applications. I work with HTML, CSS, JavaScript, and React, and I am currently improving my skills in turning UI designs into functional interfaces. I enjoy learning by building real projects and aim to grow as a developer through hands-on experience.
+                    I am a passionate and dedicated frontend developer specializing in creating clean, responsive and user-friendly web applications. I enjoy turning ideas into functional interfaces using clean and efficient code. I am always eager to learn new technologies and improve my skills to deliver exceptional digital experiences.
                 </p>
 
                 <a href="#contact">

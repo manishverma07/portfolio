@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaHtml5, FaCss3, FaJs, FaReact, FaBootstrap } from 'react-icons/fa';
-import { SiCanva, SiCoreldraw } from 'react-icons/si';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaBootstrap, FaGithub } from 'react-icons/fa';
+import { SiCanva, SiCoreldraw, SiFigma } from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -27,6 +27,13 @@ const Skills = () => {
           <div className='bar js'></div>
         </div>
 
+
+        <div className='bar-container'>
+          <h4 className='bar-text'> <span className='skill-name'> <FaReact />  React </span> <span>40%</span></h4>
+          <div className='bar' ></div>
+          <div className='bar react'></div>
+        </div>
+
         <div className='bar-container'>
           <h4 className='bar-text'> <span className='skill-name'> <FaBootstrap /> Bootstrap </span> <span> 50%</span></h4>
           <div className='bar'></div>
@@ -34,9 +41,15 @@ const Skills = () => {
         </div>
 
         <div className='bar-container'>
-          <h4 className='bar-text'> <span className='skill-name'> <FaReact />  React </span> <span>40%</span></h4>
-          <div className='bar' ></div>
-          <div className='bar react'></div>
+          <h4 className='bar-text'> <span className='skill-name'> <FaGithub /> Git/GitHub </span> <span>50%</span></h4>
+          <div className='bar'></div>
+          <div className='bar git'></div>
+        </div>
+
+        <div className='bar-container'>
+          <h4 className='bar-text'> <span className='skill-name'> <SiFigma /> Figma to web conversion </span> <span>70%</span></h4>
+          <div className='bar'></div>
+          <div className='bar figma'></div>
         </div>
 
         <div className='bar-container'>
@@ -50,6 +63,8 @@ const Skills = () => {
           <div className='bar'></div>
           <div className='bar coral'></div>
         </div>
+
+
 
       </div>
 
