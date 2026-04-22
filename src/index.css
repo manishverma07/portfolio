@@ -107,11 +107,9 @@ section {
     ;
 }
 
-.navbar ul {
+.nav-links {
     display: flex;
     gap: var(--space-lg);
-    ;
-
 }
 
 .navbar ul li a {
@@ -121,8 +119,6 @@ section {
 
 .hamburger {
     display: none;
-    font-size: 2rem;
-    color: #8AB4F8;
 }
 
 
@@ -455,6 +451,7 @@ section {
         justify-content: space-between;
         gap: 1rem;
         padding: 1.5rem 2rem;
+        position: relative;
     }
 
     
@@ -499,19 +496,22 @@ section {
     }
 
     .nav-links {
-        display: none;
+        display: none ;
         flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left:0;
         width: 100%;
         background: #202124;
         text-align: center;
-        margin-top: 1rem;
-        position: absolute;
-        top: 60px;
-        left: 0;
+        padding: 1rem 0;
+        border-bottom: 1px solid #3A3B3F;
+        z-index: 1000;
+       
     }
 
     .nav-links.active {
-        display: flex;
+        display: flex ;
     }
 
 
