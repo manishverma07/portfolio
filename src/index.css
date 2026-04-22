@@ -62,6 +62,7 @@ h4 {
 
 section {
     padding: var(--space-xl) 2rem;
+    margin-bottom: var(--space-xl);
 }
 
 
@@ -434,6 +435,15 @@ section {
 
 @media (max-width:768px) {
 
+    section {
+
+        padding: 3rem 1.5rem;
+    }
+
+    section+section {
+        margin-top: 4rem;
+    }
+
     h1 {
         font-size: 2.4rem;
     }
@@ -454,7 +464,7 @@ section {
         position: relative;
     }
 
-    
+
 
     .hero-container {
         flex-direction: column;
@@ -496,22 +506,22 @@ section {
     }
 
     .nav-links {
-        display: none ;
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 100%;
-        left:0;
+        left: 0;
         width: 100%;
         background: #202124;
         text-align: center;
         padding: 1rem 0;
         border-bottom: 1px solid #3A3B3F;
         z-index: 1000;
-       
+
     }
 
     .nav-links.active {
-        display: flex ;
+        display: flex;
     }
 
 
