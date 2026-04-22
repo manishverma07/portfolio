@@ -119,6 +119,14 @@ section {
 
 }
 
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    color: #8AB4F8;
+}
+
+
+
 
 
 /* HeroSection */
@@ -443,7 +451,8 @@ section {
     }
 
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         gap: 1rem;
         padding: 1.5rem 2rem;
     }
@@ -485,6 +494,30 @@ section {
     .project-container {
         gap: var(--space-md);
     }
+
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #202124;
+        text-align: center;
+        margin-top: 1rem;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
 
 
 }
