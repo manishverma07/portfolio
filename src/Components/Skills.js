@@ -22,7 +22,7 @@ const Skills = () => {
         </div>
 
         <div className='bar-container'>
-          <h4 className='bar-text'> <span className='skill-name'> <FaJs />  JavaScript </span>  <span>40%</span></h4>
+          <h4 className='bar-text'> <span className='skill-name'> <FaJs />  JavaScript </span>  <span>60%</span></h4>
           <div className='bar'></div>
           <div className='bar js'></div>
         </div>
