@@ -438,6 +438,16 @@ section {
     flex-wrap: wrap;
 }
 
+.cursor {
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 @media (max-width:768px) {
 
     section {

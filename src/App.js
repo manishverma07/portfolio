@@ -6,10 +6,16 @@ import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import About from './Components/About'
 import Footer from './Components/Footer'
+import { useState } from "react";
+
 
 
 const App = () => {
+    const [darkMode, setDarkMode] = useState(false);
+
+
     return (
+        
         <>
             <Navbar />
             <section id='home'><HeroSection /></section>
